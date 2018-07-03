@@ -2,15 +2,17 @@
 
 # vscode-sassdoc
 
-Add a command to automatically insert SassDoc comments into your stylesheets
+Adds a command to automatically insert SassDoc comments into your stylesheets.
 
-## Features
+Inspired by, and based on, [vscode-comment](https://github.com/Microsoft/vscode-comment)
+
+## Usage
 
 ![feature X](images/sassdoc.gif)
 
-## Release Notes
+Select the mixin definition you'd like to document. Run the `Add SassDoc` command from the command palette
 
-Users appreciate release notes as you update your extension.
+## Release Notes
 
 ### 1.0.0
 
