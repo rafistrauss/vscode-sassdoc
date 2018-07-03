@@ -2,7 +2,7 @@
     "name": "vscode-sassdoc",
     "displayName": "vscode-sassdoc",
     "description": "",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "rafikis75",
     "engines": {
         "vscode": "^1.24.0"
@@ -27,10 +27,18 @@
         "test": "node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "eslint": "^4.11.0",
+        "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "eslint": "^4.11.0",
+        "husky": "^1.0.0-rc.10",
+        "prettier": "^1.13.7",
+        "pretty-quick": "^1.6.0",
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
     }
 }
