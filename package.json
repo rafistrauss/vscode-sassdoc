@@ -2,10 +2,15 @@
     "name": "vscode-sassdoc",
     "displayName": "vscode-sassdoc",
     "description": "",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "rafikis75",
     "repository": {
         "url": "https://github.com/rafistrauss/vscode-sassdoc"
+    },
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "##ffc93c",
+        "theme": "light"
     },
     "license": "mit",
     "engines": {
