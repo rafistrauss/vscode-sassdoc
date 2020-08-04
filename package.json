@@ -2,8 +2,12 @@
     "name": "vscode-sassdoc",
     "displayName": "vscode-sassdoc",
     "description": "",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "rafikis75",
+    "repository": {
+        "url": "https://github.com/rafistrauss/vscode-sassdoc"
+    },
+    "license": "mit",
     "engines": {
         "vscode": "^1.24.0"
     },
