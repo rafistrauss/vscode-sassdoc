@@ -2,7 +2,7 @@
     "name": "vscode-sassdoc",
     "displayName": "vscode-sassdoc",
     "description": "",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "rafikis75",
     "repository": {
         "url": "https://github.com/rafistrauss/vscode-sassdoc"
