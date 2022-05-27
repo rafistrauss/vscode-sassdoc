@@ -38,7 +38,7 @@
     "devDependencies": {
         "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.43",
-        "eslint": "^4.11.0",
+        "eslint": "^8.16.0",
         "husky": "^1.0.0-rc.10",
         "prettier": "^1.13.7",
         "pretty-quick": "^1.6.0",
